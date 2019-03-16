@@ -1,0 +1,414 @@
+/*--------------------------------------------------------------
+Typographic styles for the post editor
+--------------------------------------------------------------*/
+
+.mceContentBody {
+background-color:#fff;
+  font-family: Raleway,"Helvetica Neue", sans-serif;
+  font-size: 92%;
+  line-height: 1.8;
+  color: #444;
+  margin: 20px auto;
+  max-width: 860px;
+}
+
+.mceContentBody h1,
+.mceContentBody h2,
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody h5,
+.mceContentBody h6 {
+	color: #262626;
+	font-family: Domine,"Times New Roman", serif;
+	font-weight: 700;
+	line-height: 1.2;
+    margin: 0 0 1.25rem;
+}
+
+.mceContentBody h1 {
+	font-size: 2rem;
+}
+.mceContentBody h2 {
+	font-size: 1.875rem;
+}
+.mceContentBody h3 {
+	font-size: 1.688rem;
+}
+.mceContentBody h4 {
+	font-size: 1.5rem;
+}
+.mceContentBody h5 {
+	font-size: 1.375rem;
+}
+.mceContentBody h6 {
+	font-size: 1.25rem;
+}
+
+.mceContentBody p {
+	margin-bottom: 1.563rem;
+}
+
+cite {
+    font-size: 0.875rem;
+}
+
+/* dropcap */
+.mceContentBody p.has-drop-cap:not(:focus):first-letter {
+    color: #161616;
+    float: left;
+   font-family: Domine,"Times New Roman", serif; 
+   font-size: 5.25rem;
+    line-height: 0.68;
+    font-weight: 700;
+    margin: 8px 8px 0 0;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.mceContentBody img {
+    max-width: 100%;
+}
+
+/* Links */
+a,
+a:visited {
+	font-family: Domine,"Times New Roman", serif;
+    color: #ceb654;
+	font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* List Styles */
+dl,
+ol,
+ul{
+	margin: 0 0 1.563rem;
+}
+ol ol,
+ol ul,
+ul ol,
+ul ul{
+	margin-bottom:0;
+}
+dd {
+	margin-left:0;
+}
+
+/* elements */
+.highlight {
+    background: #fff198;
+    padding: 0 6px;
+}
+
+hr {
+    background-color: #e6e6e6;
+    border: 0;
+    height: 2px;
+    margin: 40px auto;
+}
+
+
+/* Blockquotes */
+blockquote {
+    font-family: Domine,"Times New Roman", serif;
+    font-size: 1.125rem;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 2rem auto;
+    padding-left: 40px;
+    max-width: 90%;
+    position: relative;
+}
+
+
+/* classic editor blockquote */
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -10px;
+    top: -35px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+	display: block;
+	margin: 1rem 0 0;
+}
+blockquote cite:before {
+	content: "\2014";
+}
+
+
+/* Code */
+.mceContentBody var {
+    font-family: Monaco, Consolas;
+}
+
+.mceContentBody code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 1rem;
+    font-size: 0.9375rem;
+    padding: 0 0.5rem;
+}
+
+.mceContentBody code,
+.mceContentBody pre {
+    background-color: #f7f7f7;
+}
+
+.mceContentBody pre {
+	line-height: 1.6;
+	margin: 2.5rem auto;
+    position: relative;
+    padding: 2rem;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.mceContentBody pre code {
+    padding: 0;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+/* Tables */
+.mceContentBody table {
+	border-collapse: collapse;
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.075);
+    margin: 40px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mceContentBody table thead {
+    background-color: #c7b897;
+    color: #fff;
+    font-family: Domine,"Times New Roman", serif;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+}
+
+.mceContentBody table thead th {
+    font-weight: 600;
+	text-align: left;
+}
+
+.mceContentBody table th,
+.mceContentBody table td {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.075);
+}
+
+.mceContentBody table td {
+    border-bottom: solid 1px #f2f2f2;
+}
+
+.mceContentBody table tr:last-child td {
+    border-bottom: none;
+}
+
+.mceContentBody table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* media */
+.mceContentBody img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+  margin: 40px -10px;
+}
+
+.gallery-item {
+  display: inline-block;
+  padding: 0 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+  max-width: 33.3333333333%;
+}
+
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+  max-width: 16.6666666667%;
+}
+
+.gallery-columns-7 .gallery-item {
+  max-width: 14.2857142857%;
+}
+
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+  max-width: 11.1111111111%;
+}
+
+.gallery-caption {
+  display: block;
+}
+.gallery-columns-5 .gallery-caption,
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+/* Captions */
+figcaption {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    color: #262626;
+    text-align: center;
+        font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.gallery .wp-caption-text {
+    font-family: Domine,"Times New Roman", serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 8px 0;
+}
+
+/*--------------------------------------------------------------
+Alignments
+--------------------------------------------------------------*/
+.pull-right,
+.alignright {
+    float: right;
+    max-width: 40%;
+    margin: 0 0 0 40px;
+}
+
+.pull-left,
+.alignleft {
+    float: left;
+    max-width: 40%;
+    margin: 0 40px 0 0;
+}
+
+.alignnone {
+    float: none;
+    margin: 40px 0;
+}
+
+.aligncenter {
+    float: none;
+    margin: 40px auto;
+}
+
+
+/*--------------------------------------------------------------
+Media and Images
+--------------------------------------------------------------*/
+img,
+video {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+audio {
+    width: 100%;
+}
+@media (min-width: 992px) {
+	/* Image align full and wide */
+	.alignwide	{
+		display: table;
+		width: 100vw;
+		position: relative;
+		left: 50%;
+		right: 50%;
+		margin: 40px -50vw;
+		text-align: center;
+	}
+	
+	.alignwide img {
+		max-width: 1024px;
+	}	
+	.alignwide,
+	.alignwide {
+		width:calc(100% + 150px);
+		margin:40px -75px;
+	}
+	
+	.alignfull {
+		/* hentry 1170 px - 860 px entry content = 310px */
+		width: calc(100% + 310px);
+		max-width: none;
+		left: 0;
+		margin: 40px -155px;
+	}
+}
+/*---------------------------------------------------------
+Forms
+---------------------------------------------------------*/
+label {
+    display: block;
+}
+
+.button,
+button {
+    border: none;
+    border-radius: 6px;
+	background-color: #262626;
+	color: #fff;
+    cursor: pointer;
+    display: inline-block;
+       font-size: 0.813rem;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 11px 24px;
+    text-align: center;
+    white-space: normal;
+    word-break: break-all;
+}

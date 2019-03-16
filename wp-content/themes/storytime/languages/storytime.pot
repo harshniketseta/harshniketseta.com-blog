@@ -1,0 +1,833 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Storytime\n"
+"POT-Creation-Date: 2019-02-14 23:35-0800\n"
+"PO-Revision-Date: 2018-12-25 21:12-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Our Apologies. The page requested cannot be found."
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"It appears we messed up somewhere with a broken link or the page has been "
+"removed from our website."
+msgstr ""
+
+#: 404.php:28
+msgid "Return Home"
+msgstr ""
+
+#: 404.php:37 header.php:32 searchform.php:18
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: 404.php:37 header.php:32 searchform.php:17 searchform.php:18
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#. translators: %s: Author name
+#: author-bio.php:25
+#, php-format
+msgid "Read articles by %s"
+msgstr ""
+
+#: comments.php:36
+msgctxt "comments title"
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:89
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:90
+msgid "Write a Comment"
+msgstr ""
+
+#: comments.php:94
+msgid "* Message"
+msgstr ""
+
+#: comments.php:99
+msgid "* Name)"
+msgstr ""
+
+#: comments.php:103
+msgid "* Email"
+msgstr ""
+
+#: comments.php:106
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: footer.php:31
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:32
+msgid "Y"
+msgstr ""
+
+#: footer.php:35
+msgid "All rights reserved."
+msgstr ""
+
+#: functions.php:65
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:66
+msgid "Top Social Icon Menu"
+msgstr ""
+
+#: functions.php:67
+msgid "Splash Menu"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer Menu"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by the Domine font, translate this to 'off'. Do not translate into your own language.
+#: functions.php:149
+msgctxt "Domine"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by the Raleway font, translate this to 'off'. Do not translate into your own language.
+#: functions.php:154
+msgctxt "Raleway"
+msgid "on"
+msgstr ""
+
+#: functions.php:204
+msgid "Menu"
+msgstr ""
+
+#: functions.php:245
+msgctxt "Name of the accent color in the Gutenberg palette"
+msgid "Accent"
+msgstr ""
+
+#: functions.php:250
+msgctxt "Name of the beige color in the Gutenberg palette"
+msgid "Beige"
+msgstr ""
+
+#: functions.php:255
+msgctxt "Name of the dark grey color in the Gutenberg palette"
+msgid "Dark Grey"
+msgstr ""
+
+#: functions.php:261
+msgctxt "Name of the grey color in the Gutenberg palette"
+msgid "Grey"
+msgstr ""
+
+#: functions.php:266
+msgctxt "Name of the white color in the Gutenberg palette"
+msgid "White"
+msgstr ""
+
+#: functions.php:276
+msgctxt "Name of the small font size in Gutenberg"
+msgid "Small"
+msgstr ""
+
+#: functions.php:277
+msgctxt "Short name of the small font size in the Gutenberg editor."
+msgid "S"
+msgstr ""
+
+#: functions.php:282
+msgctxt "Name of the regular font size in Gutenberg"
+msgid "Regular"
+msgstr ""
+
+#: functions.php:283
+msgctxt "Short name of the regular font size in the Gutenberg editor."
+msgid "M"
+msgstr ""
+
+#: functions.php:288
+msgctxt "Name of the large font size in Gutenberg"
+msgid "Large"
+msgstr ""
+
+#: functions.php:289
+msgctxt "Short name of the large font size in the Gutenberg editor."
+msgid "L"
+msgstr ""
+
+#: functions.php:294
+msgctxt "Name of the larger font size in Gutenberg"
+msgid "Larger"
+msgstr ""
+
+#: functions.php:295
+msgctxt "Short name of the larger font size in the Gutenberg editor."
+msgid "XL"
+msgstr ""
+
+#: header.php:39
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:40
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:43
+msgid "Next Image"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/back-compat.php:29 inc/back-compat.php:40 inc/back-compat.php:54
+#, php-format
+msgid ""
+"Typit requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/custom-header.php:15
+msgid "Default Header Image"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: inc/customizer/controls/upgrade-control.php:34
+msgid "Storytime"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:35
+msgid ""
+"Opt in for the pro version of Storytime and enjoy many additional features "
+"that will add more options. Here is a sample of some of the premium features "
+"with the Pro version of Storytime:"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:36
+msgid "Get a $10 Discount with code: RPSAVE10"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:37
+msgid "Pro Features:"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:39
+msgid "&bull; 5 Blog Styles"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:40
+msgid "&bull; 10 Dynamic Sidebar Positions"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:41
+msgid "&bull; Add Multiple Splash Page Images"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:42
+msgid "&bull; 3 Full Post Layouts"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:43
+msgid "&bull; 5 Menu Locations"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:44
+msgid "&bull; Thumbnail Creation for the Blogs"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:45
+msgid "&bull; Recent Posts Widget w/thumbnails"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:46
+msgid "&bull; An About Me Widget"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:47
+msgid "&bull; A Social Links Widget"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:48
+msgid "&bull; Customize the Read More Button Text"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:49
+msgid "&bull; Custom Styled Archive Titles"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:50
+msgid "&bull; Custom Styled WordPress Login Page"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:51
+msgid "&bull; Add a Custom Blog Title with Introduction"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:52
+msgid "&bull; We Made the Customizer Look Better"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:53
+msgid "&bull; Show or Hide the Featured Post Label"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:54
+msgid "&bull; Premium Support"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:57
+msgid "Get the Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:19
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:24
+msgid "Page Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:19
+msgid "Basic Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:31
+msgid "Copyright Name"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:40
+msgid "WP Gallery Options"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:54
+msgid "Enable Gallery View Comments"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:62
+msgid "Default Google Fonts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:71
+msgid ""
+"This theme has a couple Google Fonts included. If you choose to use a plugin "
+"for different fonts, you can disable them."
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:76
+msgid "Enable the Default Google Fonts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:19
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:32
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:37
+msgid "Default With Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:38
+msgid "Large Full Width No Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:50
+msgid "Blog Summary Type"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:51
+msgid ""
+"This will let you choose to use excerpts for your blog summaries. This is "
+"ONLY for the Default Right Sidebar blog layout."
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:56
+msgid "Post Summary"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:57
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:68
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:93
+msgid "Summary Show or Hide Elements"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:108
+msgid "Hide Featured Label"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:122
+msgid "Hide Post Summary Meta Info"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:135
+msgid "Hide Post Summary Featured Image"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:148
+msgid "Hide Post Summary By Author"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:161
+msgid "Hide Post Summary Date"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:174
+msgid "Hide Post Summary Comment Count"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:187
+msgid "Hide Edit Links on Pages &amp; Posts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:24
+msgid "Site Title Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:36
+msgid "Site Tagline  Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:47
+msgid "Gutenberg Accent Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:48
+msgid "This is your accent colour when using the Gutenberg editor."
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:59
+msgid "First Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:60
+msgid "This is the beige colour."
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:71
+msgid "Third Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:72
+msgid ""
+"This is a dark grey colour; used mostly for headings, titles, and buttons."
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:83
+msgid "Fourth Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:84
+msgid ""
+"This is a medium grey colour; used mostly for secondary text like meta post "
+"info."
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:96
+msgid "Border and Line  Colours"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:108
+msgid "Image Border"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:120
+msgid "Image Hover Border"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:131
+msgid "For the Gutenberg editor Drop Cap"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:144
+msgid "Splash Page Button"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:156
+#: inc/customizer/sections/customizer-colours.php:168
+msgid "Splash Page Button Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:180
+msgid "Splash Page Button Hover Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:19
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:31
+msgid "Full Post Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:32
+msgid "This will let you choose your full post layout."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:36
+msgid "Post With Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:37
+msgid "Post Full Width Centered No Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:55
+msgid "Show or Hide Post Elements"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:69
+msgid "Hide Full Post Featured Image"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:82
+msgid "Hide Full Post Meta Info"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:95
+msgid "Hide Full Post By Author"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:108
+msgid "Hide Full Post Date"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:121
+msgid "Hide Full Post Comment Count"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:134
+msgid "Hide Categories"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:147
+msgid "Hide Tags"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:159
+msgid "Hide Author Bio"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:172
+msgid "Hide previous/next post navigation"
+msgstr ""
+
+#: inc/customizer/sections/customizer-pro-upgrade.php:19
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer/sections/customizer-pro-upgrade.php:29
+msgid "Get The Pro Version:"
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:19
+msgid "Thumbnail Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:27
+msgid "Crop Blog Featured Images"
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:40
+msgid "Crop images for the recent posts thumbnails."
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:52
+msgid "Crop featured images for the large blog Layout"
+msgstr ""
+
+#: inc/recent-posts-widget.php:23 inc/recent-posts-widget.php:29
+msgid "Storytime Recent Posts"
+msgstr ""
+
+#: inc/recent-posts-widget.php:31
+msgid ""
+"A widget that displays your recent posts from all categories or a category "
+"with thumbnails."
+msgstr ""
+
+#: inc/recent-posts-widget.php:72
+msgid "No Image"
+msgstr ""
+
+#: inc/recent-posts-widget.php:124
+msgid "Title:"
+msgstr ""
+
+#: inc/recent-posts-widget.php:129
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/sidebars.php:14
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:16
+msgid "Sidebar for your blog and archives."
+msgstr ""
+
+#: inc/sidebars.php:23
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:25
+msgid "Right sidebar for your pages."
+msgstr ""
+
+#: inc/sidebars.php:32
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:34
+msgid "Left sidebar for your pages."
+msgstr ""
+
+#: inc/sidebars.php:42
+msgid "Banner"
+msgstr ""
+
+#: inc/sidebars.php:44
+msgid "For Images and Sliders."
+msgstr ""
+
+#: inc/sidebars.php:51
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/sidebars.php:53
+msgid ""
+"For adding breadcrumb navigation if using a plugin, or you can add content "
+"here."
+msgstr ""
+
+#: inc/sidebars.php:60
+msgid "Bottom 1"
+msgstr ""
+
+#: inc/sidebars.php:62
+msgid "Bottom 1 position"
+msgstr ""
+
+#: inc/sidebars.php:69
+msgid "Bottom 2"
+msgstr ""
+
+#: inc/sidebars.php:71
+msgid "Bottom 2 position"
+msgstr ""
+
+#: inc/sidebars.php:78
+msgid "Bottom 3"
+msgstr ""
+
+#: inc/sidebars.php:80
+msgid "Bottom 3 position"
+msgstr ""
+
+#: inc/sidebars.php:87
+msgid "Bottom 4"
+msgstr ""
+
+#: inc/sidebars.php:89
+msgid "Bottom 4 position"
+msgstr ""
+
+#: inc/sidebars.php:96
+msgid "Footer"
+msgstr ""
+
+#: inc/sidebars.php:98
+msgid "Footer position"
+msgstr ""
+
+#: inc/template-functions.php:91
+msgid "Continue Reading"
+msgstr ""
+
+#. translators: %s: post date
+#: inc/template-tags.php:86
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "by"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:115
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:127
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:141
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:208
+msgid "Categories: "
+msgstr ""
+
+#. translators: %s: tag item
+#: inc/template-tags.php:219
+msgid "Tags: "
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:254
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:274
+msgctxt "pagination"
+msgid "Previous Posts"
+msgstr ""
+
+#: inc/template-tags.php:275
+msgctxt "pagination"
+msgid "Next Posts"
+msgstr ""
+
+#: inc/template-tags.php:288
+msgctxt "post navigation"
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:289
+msgctxt "post navigation"
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:301
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: search.php:18
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: search.php:22 template-parts/post/content-none.php:21
+msgid "Nothing Found"
+msgstr ""
+
+#: searchform.php:23
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/post/content-none.php:32
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:46
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/post/content-none.php:55
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/post/content.php:64
+#, php-format
+msgid "Continue Reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.roughpixels.com/wordpress-themes/storytime/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Storytime is a WordPress theme created for authors and creators of stories "
+"with an extremely clean and simple design style that makes reading a "
+"pleasant experience. Storytime is also ready for both the Block Editor "
+"(Gutenberg) and the Classic Editor. With options including choice of blog "
+"styles, full post layouts, a custom thumbnail based recent posts widget, a "
+"gorgeous front splash page where you can add 1 or more images, choice of "
+"excerpts, and much more!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rough Pixels"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.roughpixels.com"
+msgstr ""

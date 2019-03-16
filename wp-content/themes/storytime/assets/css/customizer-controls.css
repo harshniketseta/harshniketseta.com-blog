@@ -1,0 +1,108 @@
+/*
+ * Customizer Controls CSS
+ *
+ * Adjusts styling for theme option controls in the Customizer
+ *
+ * @package Storytime
+ */
+
+
+/* Enhance the Customizer default styles */
+.rp-discount {
+    font-size: 1.063rem;
+    color: #008ec2;
+    border: 1px dashed;
+    background: #fff;
+    padding: 8px;
+}
+.rp-pro-title {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+.rp-pro-list {
+	font-size: 14px;
+    margin: 10px 0;
+}
+.rp-get-pro.button {
+    background-color: #008ec2;
+    border-color: #008ec2;
+    color: #fff;
+}
+
+#customize-outer-theme-controls .accordion-section-content,
+#customize-theme-controls .accordion-section-content {
+    color: #000;
+}
+
+
+#customize-controls .description {
+    color: #5a5a5a;
+    margin: 10px 0 15px;
+}
+
+#customize-controls li.customize-control-color .description {
+    color: #5a5a5a;
+    margin: 10px 0 5px;
+}
+
+.customize-control-checkbox {
+    margin-bottom: 5px;
+}
+
+.customize-control-radio {
+    padding: 5px 0 0;
+}
+
+.customize-control input[type="text"],
+.customize-control input[type="number"] {
+    margin-bottom: 10px;
+}
+
+#sub-accordion-section-colors .customize-control-title {
+    background: initial;
+    color: initial;
+    padding: initial;
+}
+
+#customize-control-storytime_theme_options-basic_options {
+    margin: 8px 0;
+}
+
+
+#customize-control-storytime_theme_options-blog_content {
+    padding: 0;
+}
+
+#customize-control-storytime_theme_options-blog_description textarea {
+    height: 4em;
+}
+
+#customize-control-storytime_theme_options-pro_version div {
+    margin: 4px 0 16px;
+}
+
+#customize-theme-controls [id$=accordion-panel-storytime_options_panel] .customize-info .customize-help-toggle {
+    top: 24px;
+    right: 4px;
+}
+
+#customize-theme-controls [id$=accordion-panel-storytime_options_panel] .customize-info .customize-help-toggle::before {
+    top: 0;
+    left: 0;
+    padding: 0;
+    color: #a0a5aa;
+    content: "\f333";
+    font-size: 28px;
+}
+
+#customize-theme-controls [id$=accordion-panel-storytime_options_panel] .customize-info .customize-help-toggle[aria-expanded="true"]::before {
+    content: "\f335";
+}
+
+#customize-theme-controls [id$=accordion-panel-storytime_options_panel] .customize-info .customize-help-toggle:hover::before {
+    color: #72777c;
+}
+
+#customize-theme-controls [id$=accordion-panel-storytime_options_panel] .customize-info .customize-help-toggle:focus::before {
+    box-shadow: none;
+}
